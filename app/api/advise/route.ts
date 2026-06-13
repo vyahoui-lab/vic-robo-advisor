@@ -23,7 +23,7 @@ const IntakeSchema = z.object({
     time_on_form_seconds: z.number().min(0).default(0),
     edits_made: z.number().int().min(0).default(0),
     persona_id: z.enum(["marco", "zoe", "dragan"]).optional(),
-  }).default({}),
+  }).default({ time_on_form_seconds: 0, edits_made: 0 }),
 });
 
 const BIASED: ToggleState = { exclusion: true, literacy: true, opacity: true, surveillance: true };
