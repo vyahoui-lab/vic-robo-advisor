@@ -1,0 +1,43 @@
+import type { Persona } from "./types";
+
+export const PERSONAS: Persona[] = [
+  {
+    id: "marco",
+    displayName: "Marco, 32",
+    blurb: "Software engineer · tech bull · 15-year horizon",
+    age: 32,
+    annual_income_chf: 120000,
+    savings_goal: "retirement",
+    horizon_years: 15,
+    risk_tolerance: 8,
+    free_text_goal: "I want to ride the AI and semiconductor wave. Long horizon, comfortable with volatility.",
+    investment_style: "tech",
+    market_scope: "international",
+  },
+  {
+    id: "zoe",
+    displayName: "Zoe, 27",
+    blurb: "Sustainability consultant · ESG-first · mixed scope",
+    age: 27,
+    annual_income_chf: 72000,
+    savings_goal: "general",
+    horizon_years: 20,
+    risk_tolerance: 6,
+    free_text_goal: "I only want companies good for the planet. ESG ratings matter a lot to me.",
+    investment_style: "esg",
+    market_scope: "mixed",
+  },
+  {
+    id: "dragan",
+    displayName: "Dragan, 51",
+    blurb: "Business owner · Swiss-focused · dividend income",
+    age: 51,
+    annual_income_chf: 200000,
+    savings_goal: "retirement",
+    horizon_years: 10,
+    risk_tolerance: 4,
+    free_text_goal: "Steady income, dividends, Swiss blue chips. Preserve capital.",
+    investment_style: "dividend",
+    market_scope: "swiss",
+  },
+];
